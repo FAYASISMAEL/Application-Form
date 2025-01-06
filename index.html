@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sheet</title>
+</head>
+<link rel="stylesheet" href="Stylesheet.css">
+<link rel="stylesheet" href="style.css">
+<body>
+    
+    <form>
+        <label for="first">FIRST NAME</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="first" placeholder="Max 30 characters a-z and A-Z" name="first" required size="22">&nbsp;&nbsp;<br><br>
+
+        <label for="last">LAST NAME</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="last" placeholder="Max 30 characters a-z and A-Z" name="last" required size="22">&nbsp;&nbsp;<br><br>
+
+        <label>DATE OF BIRTH</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" name="bday"/><br><br>
+
+        <label for="email">EMAIL ID</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" placeholder="example@gmail.com" name="email" required size="22"><br><br>
+
+        <label for="phone">MOBILE NUMBER</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" id="phone" placeholder="10 digit number" name="phone"  size="22">&nbsp;&nbsp;<br><br>
+
+        <label for="gender">GENDER</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="address">ADDRESS</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="city">CITY</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="city" placeholder="Max 30 characters a-z and A-Z" name="city" required size="22"><br><br>
+
+        <label for="pin">PIN CODE</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="pin" placeholder="6 digit number" name="pin" required size="22"><br><br>
+
+        <label for="state">STATE</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="state" placeholder="Max 30 characters a-z and A-Z" name="state" required size="22"><br><br>
+
+        <label for="country">COUNTRY</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="country" placeholder="India" name="country" required size="22"><br><br>
+
+        <label for="hobbies">HOBBIES</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" id="h1" name="hobbies" value="Drawing">
+        <label for="h1">Drawing</label>
+        <input type="checkbox" id="h2" name="hobbies" value="Singing">
+        <label for="h2">Singing</label>
+        <input type="checkbox" id="h3" name="hobbies" value="Dancing">
+        <label for="h3">Dancing</label>
+        <input type="checkbox" id="h4" name="hobbies" value="Skeching">
+        <label for="h4">Skeching</label>
+        <input type="checkbox" id="h5" name="hobbies" value="Others">
+        <label for="h5">Others</label>
+        <input type="text" id="hobbies" placeholder="Hobbies" name="hobbies" required size="22"><br><br>
+
+        <table>
+            <td>Qualifiaction &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <table class="ql">
+
+                    <tr>
+                        <th>SI.No</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>SSLC</td>
+                        <td><input type="text" id="board1" name="board1" required size="22"></td>
+                        <td><input type="text" id="percentage1" name="percentage1" required size="22"></td>
+                        <td><input type="text" id="year1" name="year1" required size="22"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" id="board2" name="board2" required size="22"></td>
+                        <td><input type="text" id="percentage2" name="percentage2" required size="22"></td>
+                        <td><input type="text" id="year2" name="year2" required size="22"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" id="board3" name="board3" required size="22"></td>
+                        <td><input type="text" id="percentage3" name="percentage3" required size="22"></td>
+                        <td><input type="text" id="year3" name="year3" required size="22"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text" id="board4" name="board4" required size="22"></td>
+                        <td><input type="text" id="percentage4" name="percentage4" required size="22"></td>
+                        <td><input type="text" id="year4" name="year4" required size="22"></td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            (10 char max)
+                        </td>
+                        <td>
+                            (upto 2 decimal)
+                        </td>
+                    </tr>
+                    </table>
+            </td>
+        </table>
+
+        <label for="courses">COURSES <br> APPLIED FOR</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="c1" name="courses" value="BCA">
+        <label for="c1">BCA</label>
+        <input type="radio" id="c2" name="courses" value="B.Com">
+        <label for="c2">B.Com</label>
+        <input type="radio" id="c3" name="courses" value="B.Sc">
+        <label for="c3">BSC</label>
+        <input type="radio" id="c4" name="courses" value="B.A">
+        <label for="c4">B.A</label><br><br>
+    
+    </form>
+
+    <center>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </center>
+
+</body>
+</html>
